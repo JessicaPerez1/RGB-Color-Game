@@ -1,29 +1,75 @@
 body {
   background-color: #232323;
-}
-.square {
-  width: 30%;
-  background-color: purple;
-  padding-bottom: 30%;
-  margin: 1.66%;
-  float: left;
+  margin: 0;
+  font-family: "Roboto Mono", monospace;
 }
 #container {
   margin: 0 auto;
   width: 30rem;
+  padding-top: 20px;
 }
-h1 {
-  color: white;
+#navbrand {
+  font-size: x-large;
 }
-#colorDisplay {
-  color: white;
+#red {
+  color: red;
+}
+#green {
+  color: green;
+}
+#blue {
+  color: blue;
+}
+#yellow {
+  color: yellow;
+}
+h1,
+#colorDisplay,
+p,
+.navbar {
+  text-align: center;
+  background-color: white;
+  margin: 0;
 }
 
+h2 {
+  text-transform: uppercase;
+}
 #stripe {
-  background-color: white;
-  height: 2.2rem;
+  background-color: whitesmoke;
+  height: 3rem;
   text-align: center;
 }
+#message {
+  display: inline-block;
+  width: 20%;
+}
 .selected {
-  background-color: blue;
+  background-color: #232323;
+  color: white;
+}
+.square {
+  width: 30%;
+  background-color: whitesmoke;
+  padding-bottom: 30%;
+  margin: 1.66%;
+  float: left;
+  border-radius: 50%;
+  transition: background 0.5s;
+  -webkit-transition: background 0.5s;
+  -moz-transition: background 0.5s;
+}
+button {
+  border: none;
+  background-color: none;
+  text-transform: uppercase;
+  height: 100%;
+  letter-spacing: 1px;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+button:hover {
+  background-color: #232323;
+  color: white;
 }

@@ -15,6 +15,7 @@ var hardBtn = document.querySelector("#hardBtn");
 easyBtn.addEventListener("click", function () {
   easyBtn.classList.add("selected");
   hardBtn.classList.remove("selected");
+  h1.style.backgroundColor = "white";
   //generate new colors
   numSquares = 3;
   colors = generateRandomColors(numSquares);
@@ -33,6 +34,7 @@ easyBtn.addEventListener("click", function () {
 hardBtn.addEventListener("click", function () {
   hardBtn.classList.add("selected");
   easyBtn.classList.remove("selected");
+  h1.style.backgroundColor = "white";
   //generate new colors
   numSquares = 6;
   colors = generateRandomColors(numSquares);
@@ -58,7 +60,7 @@ resetButton.addEventListener("click", function () {
     squares[i].style.backgroundColor = colors[i];
   }
   //reset h1 background
-  h1.style.backgroundColor = "#232323";
+  h1.style.backgroundColor = "white";
 });
 //UPDATE RGB TEXT CONTENT DISPLAY
 colorDisplay.textContent = pickedColor;
