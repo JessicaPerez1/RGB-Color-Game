@@ -17,33 +17,35 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-light text-center">
-      <span id="navbrand" class="navbar-brand mb-0 h1">
-        <span id="red">T</span><span id="green">H</span
-        ><span id="blue">E</span> COLOR <span id="red">G</span
-        ><span id="green">A</span><span id="yellow">M</span
-        ><span id="blue">E</span></span
-      >
-    </nav>
-    <div id="head">
-      <h1 class="pb-2">Can you guess what color this is?</h1>
-      <p class="pb-2">Click on the squares to guess the correct color!</p>
-      <h2 id="colorDisplay" class="pb-4">RGB</h2>
-    </div>
+    <div class="container-fluid p-0 m-0">
+      <nav class="navbar navbar-light text-center">
+        <span id="navbrand" class="navbar-brand mb-0 h1">
+          <span id="red">T</span><span id="green">H</span
+          ><span id="blue">E</span> COLOR <span id="red">G</span
+          ><span id="green">A</span><span id="yellow">M</span
+          ><span id="blue">E</span></span
+        >
+      </nav>
+      <div id="head">
+        <h1 class="pb-2">Can you guess what color this is?</h1>
+        <h5 class="pb-2">Click on the squares to guess the correct color!</h5>
+        <h2 id="colorDisplay" class="pb-4">RGB</h2>
+      </div>
 
-    <div id="stripe">
-      <button id="reset">New Colors</button>
-      <span id="message"></span>
-      <button id="easyBtn">Easy</button>
-      <button id="hardBtn" class="selected">Hard</button>
-    </div>
-    <div id="container">
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
+      <div id="stripe">
+        <button id="reset">New Colors</button>
+        <span id="message"></span>
+        <button id="easyBtn">Easy</button>
+        <button id="hardBtn" class="selected">Hard</button>
+      </div>
+      <div id="square-container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+      </div>
     </div>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

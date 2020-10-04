@@ -47,8 +47,10 @@ hardBtn.addEventListener("click", function () {
     squares[i].style.display = "block";
   }
 });
-//RESET COLORS
+//RESET BUTTON
 resetButton.addEventListener("click", function () {
+  //reset message to empty string when reset clicked
+  messageDisplay.textContent = "";
   //generate new colors
   colors = generateRandomColors(numSquares);
   //pick a new random color from array
