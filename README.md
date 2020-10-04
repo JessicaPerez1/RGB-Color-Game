@@ -2,7 +2,7 @@
 
 ## Description
 
-Test your rgb skills in a playful way with this app! A random rgb color is generated and the user has to guess, there are 2 modes - easy and hard.
+Test your rgb skills with this app! In this rgb color guessing game, a random rgb color is generated and the user has to guess. When the user wins, all elements turn the correct color! The user has multiple chances to guess. There are 2 modes: easy and hard.
 
 ## Table of Contents
 
@@ -24,7 +24,9 @@ Test your rgb skills in a playful way with this app! A random rgb color is gener
 
 ### App-screenshots
 
-![RGB GAME screenshot]())
+![RGB HARD MODE screenshot](assets/rgb-hard.png)
+![RGB EASY MODE screenshot](assets/rgb-easy.png)
+![RGB MOBILE screenshot](assets/rgb-mobile.png)
 
 ### Questions
 
